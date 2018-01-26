@@ -26,7 +26,7 @@ if node['platform'] == 'oracle'
     mode '0755'
     action :create
   end
-   
+
   package 'ovirt-guest-agent' do
     action :install
     source '/tmp/ovirt-guest-agent-1.0.13-1.el6.noarch.rpm'
