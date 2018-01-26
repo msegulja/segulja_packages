@@ -9,8 +9,10 @@
 # Is the ovirt-guest-agent package installed?
 # Is the ovirt-guest-agent service started and enabled?
 
-describe package('epel-release') do
-  it { should be_installed }
+if os[:platform] == 'rhel'
+  describe package('epel-release') do
+    it { should be_installed }
+  end
 end
 
 describe package('ovirt-guest-agent-common') do
