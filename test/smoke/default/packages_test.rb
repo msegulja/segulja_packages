@@ -14,5 +14,9 @@ describe package('mlocate') do
 end
 
 describe package('bc') do
-  it { shoud be_installed }
+  it { should be_installed }
+end
+
+describe package('redhat-lsb') do
+  it { should be_installed }
 end

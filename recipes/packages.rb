@@ -4,6 +4,16 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-package %w(vim sysstat net-tools telnet) do
-  action :install
+%w(
+  vim-enhanced
+  sysstat
+  net-tools
+  telnet
+  bc
+  mlocate
+  redhat-lsb
+).each do |pkg|
+  package pkg do
+    action :install
+  end
 end
