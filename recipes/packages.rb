@@ -12,6 +12,7 @@
   bc
   mlocate
   redhat-lsb
+  wget
 ).each do |pkg|
   package pkg do
     action :install

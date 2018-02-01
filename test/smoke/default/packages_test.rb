@@ -20,3 +20,7 @@ end
 describe package('redhat-lsb') do
   it { should be_installed }
 end
+
+describe package('wget') do
+  it { should be_installed }
+end
