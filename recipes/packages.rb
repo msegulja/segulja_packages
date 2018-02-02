@@ -13,6 +13,7 @@
   mlocate
   redhat-lsb
   wget
+  autofs
 ).each do |pkg|
   package pkg do
     action :install
