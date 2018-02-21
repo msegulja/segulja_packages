@@ -12,6 +12,9 @@
   traceroute
   autofs
   nfs-utils
+  sysstat
+  mlocate
+  bc
 ).each do |pkg|
   package pkg do
     action :install
