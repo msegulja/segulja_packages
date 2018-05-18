@@ -21,6 +21,26 @@ describe package('redhat-lsb') do
   it { should be_installed }
 end
 
+describe package('perl-Net-SSLeay') do
+  it { should be_installed }
+end
+
+describe package('telnet') do
+  it { should be_installed }
+end
+
 describe package('wget') do
+  it { should be_installed }
+end
+
+describe package('traceroute') do
+  it { should be_installed }
+end
+
+describe package('autofs') do
+  it { should be_installed }
+end
+
+describe package('nfs-utils') do
   it { should be_installed }
 end

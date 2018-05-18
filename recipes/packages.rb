@@ -14,6 +14,7 @@
   redhat-lsb
   wget
   autofs
+  traceroute
 ).each do |pkg|
   package pkg do
     action :install
