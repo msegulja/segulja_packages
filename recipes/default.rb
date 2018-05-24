@@ -5,4 +5,3 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 include_recipe 'segulja_packages::packages'
-include_recipe 'segulja_packages::ovirt'

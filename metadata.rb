@@ -4,7 +4,11 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures segulja_packages'
 long_description 'Installs/Configures segulja_packages'
+<<<<<<< HEAD
 version '0.1.5'
+=======
+version '0.1.9'
+>>>>>>> adf4693d5e90c8b520d655a035e8d2e3c9b0f219
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
